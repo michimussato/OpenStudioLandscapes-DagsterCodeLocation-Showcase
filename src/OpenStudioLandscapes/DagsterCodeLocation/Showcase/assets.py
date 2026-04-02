@@ -15,7 +15,7 @@ from dagster import (
 )
 
 
-from OpenStudioLandscapes.Dagster.Showcase import dist
+from OpenStudioLandscapes.DagsterCodeLocation.Showcase import dist
 
 # Todo
 #  - [ ] fix this naive replacement logic

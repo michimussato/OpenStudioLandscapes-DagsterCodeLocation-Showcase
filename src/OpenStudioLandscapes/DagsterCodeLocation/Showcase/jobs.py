@@ -5,7 +5,7 @@ from dagster import (
 )
 
 
-from OpenStudioLandscapes.Dagster.Showcase.assets import ASSET_HEADER
+from OpenStudioLandscapes.DagsterCodeLocation.Showcase.assets import ASSET_HEADER
 
 
 # Asset Selections

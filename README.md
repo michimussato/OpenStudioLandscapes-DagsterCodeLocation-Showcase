@@ -3,14 +3,14 @@
 ---
 
 <!-- TOC -->
-* [Openstudiolandscapes-Dagster-Showcase](#openstudiolandscapes-dagster-showcase)
+* [Openstudiolandscapes-DagsterCodeLocation-Showcase](#openstudiolandscapes-dagstercodelocation-showcase)
   * [Install into OpenStudioLandscapes-Dagster](#install-into-openstudiolandscapes-dagster)
   * [Automation and Functionality](#automation-and-functionality)
 <!-- TOC -->
 
 ---
 
-# Openstudiolandscapes-Dagster-Showcase
+# Openstudiolandscapes-DagsterCodeLocation-Showcase
 
 ## Install into OpenStudioLandscapes-Dagster
 
@@ -28,10 +28,10 @@ dagster_code_locations:
   load_from:
   # [...]
   - python_module:
-      location_name: OpenStudioLandscapes-Dagster-Showcase Package Code Location
-      module_name: OpenStudioLandscapes.Dagster.Showcase.definitions
+      location_name: OpenStudioLandscapes-DagsterCodeLocation-Showcase Package Code Location
+      module_name: OpenStudioLandscapes.DagsterCodeLocation.Showcase.definitions
       working_directory: src
-      pip_path: OpenStudioLandscapes-Dagster-Showcase @ git+https://github.com/michimussato/OpenStudioLandscapes-Dagster-Showcase.git@main
+      pip_path: OpenStudioLandscapes-DagsterCodeLocation-Showcase @ git+https://github.com/michimussato/OpenStudioLandscapes-DagsterCodeLocation-Showcase.git@main
   # [...]
 ```
 

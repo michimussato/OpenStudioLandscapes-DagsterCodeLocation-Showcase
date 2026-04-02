@@ -3,14 +3,14 @@ from dagster import (
     load_assets_from_modules,
 )
 
-import OpenStudioLandscapes.Dagster.Showcase.assets
-from OpenStudioLandscapes.Dagster.Showcase.sensors import (
+import OpenStudioLandscapes.DagsterCodeLocation.Showcase.assets
+from OpenStudioLandscapes.DagsterCodeLocation.Showcase.sensors import (
     sensor_create_file,
     sensor_delete_file,
 )
 
 all_assets = load_assets_from_modules(
-    modules=[OpenStudioLandscapes.Dagster.Showcase.assets]
+    modules=[OpenStudioLandscapes.DagsterCodeLocation.Showcase.assets]
 )
 
 all_sensors = [sensor_create_file, sensor_delete_file]

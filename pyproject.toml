@@ -28,7 +28,7 @@ license-files = [
 requires-python = ">=3.11,<3.13"
 dependencies = [
     "dagster==1.9.11",
-    "dagster-webserver",
+#    "dagster-webserver",
 ]
 
 [project.optional-dependencies]
@@ -41,12 +41,12 @@ content-type = "text/markdown; charset=UTF-8"
 file = "README.md"
 
 [project.urls]
-Homepage = "https://github.com/michimussato/OpenStudioLandscapes-Dagster-Showcase"
+Homepage = "https://github.com/michimussato/OpenStudioLandscapes-DagsterCodeLocation-Showcase"
 
 [tool.dagster]
-module_name = "OpenStudioLandscapes.Dagster.Showcase.definitions"
+module_name = "OpenStudioLandscapes.DagsterCodeLocation.Showcase.definitions"
 working_directory = "src"
-project_name = "OpenStudioLandscapes-Dagster-Showcase"
+project_name = "OpenStudioLandscapes-DagsterCodeLocation-Showcase"
 
 #[tool.setuptools]
 #include-package-data = true
@@ -68,12 +68,22 @@ project_name = "OpenStudioLandscapes-Dagster-Showcase"
 
 [tool.setuptools]
 include-package-data = true
-packages = [
-    "OpenStudioLandscapes.Dagster.Showcase",
-]
+#packages = [
+#    "OpenStudioLandscapes.DagsterCodeLocation.Showcase",
+#]
 platforms = [
     "Linux",
 ]
 
-[tool.setuptools.package-dir]
-"" = "src"
+#[tool.setuptools.package-dir]
+#"" = "src"
+
+[tool.setuptools.packages.find]
+exclude = [
+    "tests",
+]
+namespaces = true
+where = [
+    "src",
+]
+include = ["OpenStudioLandscapes.DagsterCodeLocation.*"]

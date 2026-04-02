@@ -13,7 +13,7 @@ from dagster import (
 
 import pathlib
 
-from OpenStudioLandscapes.Dagster.Showcase.jobs import (
+from OpenStudioLandscapes.DagsterCodeLocation.Showcase.jobs import (
     job_create_file,
     job_delete_file
 )
