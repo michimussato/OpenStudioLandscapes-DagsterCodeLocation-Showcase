@@ -17,7 +17,7 @@ classifiers = [
     "Framework :: OpenStudioLandscapes",
     "Programming Language :: Python",
 ]
-name = "OpenStudioLandscapes.DagsterCodeLocation.Showcase"
+name = "OpenStudioLandscapes-DagsterCodeLocation-Showcase"
 dynamic = [
     "version",
 ]
